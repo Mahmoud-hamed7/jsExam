@@ -1,0 +1,112 @@
+/* nav-page-start */
+body{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+ }
+.nav-logo{
+width: 70px;
+height: 70px;
+
+}
+i{
+    cursor: pointer;
+}
+
+.side-nav-right-side{
+    width: 15%;
+}
+/* nav-page-end */
+
+/* home-page-start */
+.img-hov{
+  
+
+ overflow: hidden;
+}
+.img-hov:hover .layer{
+ 
+    transform: translateY(0);
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0%;
+    right: 0;
+    background-color: rgba(212, 212, 212, 0.7);
+    transform: translateY(100%);
+    transition: all 0.7s;
+    padding: 5px;
+}
+.img-text{
+    top: 30px;
+}
+
+.poniiter{
+    cursor: pointer;
+}
+.side-nav-categories  a{
+    cursor: pointer;
+}
+/*  home-page-end */
+/* deatails-start */
+.alert{
+    width: 30%;
+
+}
+
+/* loding */
+
+.lds-ring,
+.lds-ring div {
+  box-sizing: border-box;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid currentColor;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: currentColor transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.loding{
+  position: absolute;
+   
+  top: 50%;
+  left: 50%;
+}
+
+

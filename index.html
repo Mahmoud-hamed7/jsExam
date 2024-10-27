@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hamedSide</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="icon" href="Yummy/logo.png">
+    </head>
+    <body class=" bg-black ">
+
+        <!-- nav-start -->
+        <section class="navo d-flex    position-fixed z-3 h-100">
+
+            <div class="side-nav-left-side bg-black  text-white h-100  ">
+                <div class="side-nav-categories  m-3 ">
+
+                    <a onclick="showSerch();closeNav()" class>
+                        <p
+                            class=" item1-text text-white fs-4 p-2 ">Search</p></a>
+
+                    <a class onclick="gatApiCat();closeNav()">
+
+                        <p
+                            class=" item1-text text-white fs-4 p-2  mt-4">Categories</p></a>
+
+                    <a onclick="getApiArea();closeNav()" class> <p
+                            class="item1-text text-white fs-4 p-2  mt-4">Area</p></a>
+
+                    <a onclick="getInApi();closeNav()" class>
+                        <p
+                            class="item1-text text-white fs-4 p-2  mt-4">Ingredients</p>
+                    </a>
+
+                    <a onclick="dispalyContact();closeNav()" class>
+                        <p class="   item1-text text-white fs-4 p-2  mt-4">
+                            contact us
+                        </p>
+                    </a>
+                </div>
+
+                <div class="footer   align-self-center d-flex h-25">
+
+                    <button class="btn  but-bars fs-5   ">
+                        <i class="fa-brands fa-facebook text-white "></i>
+                    </button>
+
+                    <button class="btn  but-bars fs-5   ">
+                        <i class="fa-brands fa-twitter text-white "></i>
+                    </button>
+
+                    <button class="btn  but-bars fs-5 text-white  ">
+                        <i class="fa-brands fa-internet-explorer "></i>
+                    </button>
+
+                </div>
+                <p>Copyright Â© 2019 All Rights
+                    Reserved.</p>
+
+            </div>
+
+            <div
+                class="side-nav-right-side bg-white d-flex flex-wrap    align-content-between   text-center     ">
+
+                <div class="side-nav-right-side-logo w-100">
+                    <img src="Yummy/logo.png" class="nav-logo " alt>
+
+                </div>
+
+                <div class="side-nav-right-side-but w-100">
+                    <button class="btn  but-bars fs-1   ">
+                        <i class="fa-solid fa-bars w-100"></i>
+                    </button>
+                </div>
+
+                <div class="side-nav-right-side-footer w-100">
+
+                    <button class="btn  but-bars fs-5   ">
+                        <i class="fa-brands fa-twitter  "></i>
+                    </button>
+
+                    <button class="btn  but-bars fs-5   ">
+                        <i class="fa-brands fa-internet-explorer "></i>
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- nav-end -->
+
+        <!-- serach-page-start -->
+        <div class="container ">
+            <div onkeyup class="row py-5 " id="serchBar">
+
+            </div>
+        </div>
+        <!-- serach-page-end -->
+
+        <!-- home-page-start -->
+        <div class="home-page ">
+            <div class="container mt-4">
+
+                <div class="row g-3 " id="rowelement">
+
+                </div>
+            </div>
+        </div>
+        <!-- home-page-end -->
+
+        <!-- details-start -->
+        <section
+            class="details   text-white  ">
+            <div class="container text-white">
+                <div class="row g-5 mt-5 DetailsRow">
+
+                </div>
+            </div>
+        </section>
+        <!-- details-end -->
+
+        <!-- contact-page-start -->
+        
+
+        <!-- contact-page-end -->
+         <!-- loding-start -->
+
+    <div class="lds-ring position-absolute loding  text-danger d-none"><div></div><div></div><div></div><div></div></div>
+
+<!-- loding-end -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/index.js  "></script>
+    </body>
+</html>
